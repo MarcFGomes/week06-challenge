@@ -1,0 +1,132 @@
+/*Universal selector reset for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+
+/*Variables*/
+:root {
+    --sidebar-width: 25%;
+    --button-height: 30px;
+    --left-side-boder-radius: 4px;
+    --section-padding: 10px 5px;
+    --gap-forecast: 5%;
+
+/*Header*/
+header {
+    height: 50px;
+    padding: 5px 5px;
+    text-align: center;
+    border: solid red 2px;
+    background: linear-gradient(to right, lightblue, darkblue);
+    color: white
+    
+}
+
+header h1 {
+    border: solid red 2px;
+ 
+}
+
+/*Body */
+main {
+    display: flex;
+    width: 100%;
+}
+
+
+/*Left Side */
+
+}
+#left-side {
+    width: var(--sidebar-width);
+    border: solid red 2px;
+    padding: var(--section-padding);
+}
+
+input {
+    width: 100%;
+    border-radius: var(--left-side-boder-radius);
+    margin-top: 5px;
+    height: var(--button-height); 
+}
+
+button {
+    width: 100%;
+    border-radius: var(--left-side-boder-radius);
+    background-color: gray;
+    margin-top: 10px;
+    height: var(--button-height);
+    border: none;
+}
+
+#search-button {
+   background-color: lightblue;
+   color: white;
+}
+
+
+.bottom-border{
+    border-bottom: solid 2px darkslategray;
+    padding-bottom: 10px;
+}
+
+
+
+/*Right Side */
+
+#right-side {
+    width: calc(100% - var(--sidebar-width));
+    border: solid red 2px;
+    padding: var(--section-padding);
+}
+
+
+/*Today's info*/
+#today-info{
+    border: solid black 2px;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+#forecast-section{
+    margin-top: 10px;
+}
+
+
+/*Forecast info*/
+#box-section{
+    margin-top: 10px;
+}
+
+#box-section{
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap-forecast);
+    width: 100%;
+}
+
+.box{
+    background-color: darkslategray;
+    border-radius: 5px;
+    color: white;
+    width: calc((100% - 4 * var(--gap-forecast))/5);
+    font-weight: normal;
+    padding: 5px;
+}
+
+.box h3{
+    font-weight: normal; 
+}
+
+#date-forecast{
+    font-weight: bold; 
+}
+
+
+
+
+
+
