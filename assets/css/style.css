@@ -27,9 +27,14 @@ header {
 
 
 /*Body */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 main {
     display: flex;
     width: 100%;
+    
 }
 
 
@@ -45,7 +50,8 @@ input {
     width: 100%;
     border-radius: var(--left-side-boder-radius);
     margin-top: 5px;
-    height: var(--button-height); 
+    height: var(--button-height);
+    font-family: 'Lato', sans-serif;
 }
 
 button {
@@ -55,6 +61,7 @@ button {
     margin-top: 10px;
     height: var(--button-height);
     border: none;
+    font-family: 'Lato', sans-serif;
 }
 
 #search-button {
@@ -83,10 +90,17 @@ button {
     border: solid black 2px;
     border-radius: 10px;
     padding: 5px 5px;
+
 }
 
 #forecast-section{
     margin-top: 10px;
+}
+
+#title-img {
+    display:flex;
+    flex-direction: row;
+    gap: 10px;    
 }
 
 
@@ -115,8 +129,8 @@ button {
     font-weight: normal; 
 }
 
-#date-forecast{
-    font-weight: bold; 
+.date-forecast{
+    font-weight: bold !important;
 }
 
 
