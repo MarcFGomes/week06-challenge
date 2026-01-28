@@ -28,5 +28,3 @@ A dynamic Weather Dashboard that allows users to search any city and view both c
 [Access the Task Board](https://marcfgomes.github.io/week06-homework/)
 
 ![Alt Text](./assets/images/06-server-side-apis-homework-demo.png)
-
-TES
